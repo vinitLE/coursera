@@ -1,26 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <h1>our menu</h1>
-    <div class="box1">
-    <div class="heading1"><h2>Chicken</h2></div>
-    <div class="text1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa illo laborum officiis deleniti saepe accusantium ex dolorum, error et neque eius alias optio suscipit quisquam? Dolores non provident temporibus magni!</div>
-    </div>
-    <div class="box1">
-        <div class="heading1"><h2>Beef</h2></div>
-        <div class="text1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi reprehenderit ad placeat cumque, obcaecati dolorem aliquid, accusantium quas aspernatur, facilis sed nemo perferendis nostrum corporis id voluptates? Dolorum, quia nihil?</div>
-        </div>
-        <div class="box1 box2">
-            <div class="heading1"><h2>Sushi</h2></div>
-            <div class="text1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod harum similique, soluta vel eum expedita molestias eveniet ea assumenda? Modi voluptas id qui saepe incidunt sapiente iure harum? Vel, magni.</div>
+<html>
+    <head>
+        <title>Menu Page</title>
+        <!--This is the meta-tag that binds the index.html file to the CSS stylesheet-->
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <!--Device settings-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <!-- This will be my page's wrapper-->
+        <div>
+            <!--This contains the heading for the web page-->
+            <div class="heading">
+                <h1>Our Menu</h1>
             </div>
-
-</body>
+            <!--This is the row that will contain the 3 sections-->
+            
+                <div class="column">
+                    <h1 class="head" id="chicken">Chicken</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a nulla cursus mi dignissim faucibus. Pellentesque molestie felis ante, sed vehicula justo vulputate lobortis. Pellentesque sodales sodales interdum. Maecenas mollis est nec arcu volutpat, vitae faucibus nisl faucibus. Sed gravida tincidunt ipsum a semper. Donec justo eros, tincidunt at vehicula ut, hendrerit nec purus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                </div>
+                <div class="column">
+                    <h1 class="head" id="beef">Beef</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a nulla cursus mi dignissim faucibus. Pellentesque molestie felis ante, sed vehicula justo vulputate lobortis. Pellentesque sodales sodales interdum. Maecenas mollis est nec arcu volutpat, vitae faucibus nisl faucibus. Sed gravida tincidunt ipsum a semper. Donec justo eros, tincidunt at vehicula ut, hendrerit nec purus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                </div>
+                <div class="column col_three">
+                    <h1 class="head" id="sushi">Sushi</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a nulla cursus mi dignissim faucibus. Pellentesque molestie felis ante, sed vehicula justo vulputate lobortis. Pellentesque sodales sodales interdum. Maecenas mollis est nec arcu volutpat, vitae faucibus nisl faucibus. Sed gravida tincidunt ipsum a semper. Donec justo eros, tincidunt at vehicula ut, hendrerit nec purus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                </div>
+            
+        </div>
+    </body>
 </html>
