@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
     
 }
 h1{
@@ -8,116 +9,21 @@ h1{
     margin-top: 100px;
     text-transform: uppercase;
 }
-@media(min-width:992px){
+
 .box1{
-    width: 500px;
-    height: 200px;
+    width: 30%;
+    height: 300px;
     border: 1px solid black;
     background-color: grey;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top: 50px;
     padding: 10px;
-    position: absolute;
-   
+    float: left;
+    overflow: hidden;
 }
-.box2{
-    width: 500px;
-    height: 200px;
-    border: 1px solid black;
-    background-color: grey;
-    margin-left: 30px;
-    margin-top: 50px;
-    padding: 10px;
-    position: absolute;
-    left: 600px;
 
-}
-.box3{
-    width: 500px;
-    height: 200px;
-    border: 1px solid black;
-    background-color: grey;
-    margin-left: 30px;
-    margin-top: 50px;
-    padding: 10px;
-    position: absolute;
-    left: 1200px;
-}
-}
-@media (min-width: 768px) and (max-width: 991px){
-    .box1{
-        width: 300px;
-        height: 250px;
-        border: 1px solid black;
-        background-color: grey;
-        margin-left: 30px;
-        margin-top: 50px;
-        padding: 10px;
-        position: absolute;
-       
-    }
-    .box2{
-        width: 300px;
-        height: 250px;
-        border: 1px solid black;
-        background-color: grey;
-       
-        margin-top: 50px;
-        padding: 10px;
-        position: absolute;
-        left: 500px;
-    
-    }
-    .box3{
 
-        
-        width: 600px;
-        height: 200px;
-        border: 1px solid black;
-        background-color: grey;
-        margin-left: 100px;
-        margin-top: 50px;
-        padding: 10px;
-        position: relative;
-        top: 300px;
-        
-    }
-}
-@media(max-width:767px){
-    .box1{
-        width: 500px;
-        height: 200px;
-        border: 1px solid black;
-        background-color: grey;
-        margin-left: 30px;
-        margin-top: 50px;
-        padding: 10px;
-    
-       
-    }
-    .box2{
-        width: 500px;
-        height: 200px;
-        border: 1px solid black;
-        background-color: grey;
-        margin-left: 30px;
-        margin-top: 50px;
-        padding: 10px;
-        
-        
-    }
-    .box3{
-        width: 500px;
-        height: 200px;
-        border: 1px solid black;
-        background-color: grey;
-        margin-left: 30px;
-        margin-top: 50px;
-        padding: 10px;
-        
-        
-    }
-}
+
 h2{
  margin-left: 10px;
 
@@ -133,4 +39,25 @@ h2{
 .text1{
     margin-top: 30px;
     font-size: 20px;
+}
+@media screen and (min-width: 992px){
+ 
+}
+
+/*Tablet Version*/
+@media screen and (max-width: 991px) {
+    .box1{
+        width: 30%;
+    }
+    .box2{
+        width: 80%;
+    }
+    
+}
+/*Mobile version*/
+@media screen and (max-width: 767px) {
+    .box1 {
+        width: 80%;
+    }
+   
 }
